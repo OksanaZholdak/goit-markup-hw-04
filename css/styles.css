@@ -253,6 +253,16 @@ body {
   width: calc((100% - 72px) / 4);
 }
 
+.svg-section {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  padding: 24px 100px;
+}
+
 .benefits-title {
   font-weight: 500;
   font-size: 20px;
@@ -358,6 +368,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 8px;
+  padding-bottom: 32px;
 }
 
 .team-net-item {
@@ -376,7 +388,7 @@ body {
 }
 
 .svg-fail {
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
 
 .circle {
@@ -388,6 +400,36 @@ body {
   padding-bottom: 32px;
   padding-right: 16px;
 }
+
+/* section - 5 */
+
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.svg-customers {
+  width: 168px;
+  height: 88px;
+}
+
+.customers-item {
+  border: 1px solid #8e8f99;
+}
+
 
 /* MAIN PORTFOLIO */
 
