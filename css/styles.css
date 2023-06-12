@@ -440,7 +440,7 @@ body {
 
 .svg-customers:hover,
 .svg-customers:focus {
-  color: #404bbf;
+  fill: #404bbf;
 }
 
 .customers-item {
@@ -486,6 +486,7 @@ body {
 
 .button-portfolio {
   font-family: "Roboto";
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
